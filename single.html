@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <!----Font Awesome---->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <!---Manual Style Sheet--->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <a href="#logo"><img src="img/logo.png" alt="" class="logo"></a>
+
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </header> 
+
+    <section id="single-page">
+        <div class="single-img">
+            <div class="big-img">
+                <img src="img/products/f1.jpg" alt="" id="main-img">
+            </div>
+            <div class="small-img">
+                <div class="small-one">
+                    <img src="img/products/f1.jpg" alt="" class="change-img">
+                </div>
+                <div class="small-one">
+                    <img src="img/products/f2.jpg" alt="" class="change-img">
+                </div>
+                <div class="small-one">
+                    <img src="img/products/f3.jpg" alt="" class="change-img">
+                </div>
+                <div class="small-one">
+                    <img src="img/products/f4.jpg" alt="" class="change-img">
+                </div>
+            </div>
+        </div>
+        <div class="single-text">
+            <h3>Men's Fashion T-Shirts</h3>
+            <h4>$139.00</h4>
+            <select name="" id="">
+                <option value="">Select Size</option>
+                <option value="">Extra Larg</option>
+                <option value="">Large</option>
+                <option value="">Medium</option>
+                <option value="">Small</option>
+            </select>
+            <div class="input">
+                <input type="number"> <button class="btn1">Add To Cart</button>
+            </div>
+            <h4>Product Details</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Reprehenderit repellat saepe totam magni bland
+            itiis, eaque quidem consequatur accusantium asperior
+            es. Nam, nemo ab? Maxime accusantium, delectus autem
+            iste non natus dolor. orem ipsum dolor sit amet conse
+            ctetur adipisicing elit. Reprehenderit repellat saepe
+            totam magni bland itiis, eaque quidem consequatur acc
+            usantium asperiores. Nam, nemo ab? Ma</p>
+        </div>
+    </section>
+
+    <section id="newesletter" class="section-p1 section-m1">
+        <div class="letter-text">
+            <h4>Sign Up For Newesletter</h4>
+            <p>Get Email Updates About Our Latest Shop and <span>Special Offers.</span></p>
+        </div>
+        <div class="letter-input">
+            <input type="text" placeholder="Your email address"><a href="#" type="submit">Sign Up</a>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="footer-one">
+            <div class="contact">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="contact-info">
+                    <h3>Contact</h3>
+                    <p><strong>Address: </strong> 65 Vijay Nagar, NDLS, India</p>
+                    <p><strong>Phone: </strong>+(91)-7082-0854-96</p>
+                    <p><strong>Hours: </strong>10AM - 11PM Mon-Sat</p>
+                </div>
+                <div class="social">
+                    <h4>Follow Us On</h4>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-telegram-plane"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="about">
+                <h3>About</h3>
+                <a href="#">About Us</a><br><br>
+                <a href="#">Delivery Information</a><br><br>
+                <a href="#">Privacy Policy</a><br><br>
+                <a href="#">Terms & Conditions</a><br><br>
+                <a href="#">Contact Us</a><br>
+            </div>
+            <div class="account">
+                <h3>My Accounts</h3>
+                <a href="#">Signin</a><br><br>
+                <a href="#">View Cart</a><br><br>
+                <a href="#">My Wishlist</a><br><br>
+                <a href="#">Track My Order</a><br><br>
+                <a href="#">Help</a><br>
+            </div>
+            <div class="app">
+                <h3>Install App</h3>
+                <p>From App Store to Google Play</p>
+                <div class="install">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <div class="pay">
+                    <img src="img/pay/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-two">
+            <a href="#portfolio">@2022, all rights reserved || <span>ashwat-thama</span></a>
+        </div>
+    </footer>
+<!---Script Js Starts--->
+    <script src="script.js"></script>
+<!--- Script Js Ends --->
+</body>
+</html>
